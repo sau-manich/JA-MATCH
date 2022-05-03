@@ -1,0 +1,19 @@
+{
+    "name": "JA-MATCH",
+    "short_name": "JA-MATCH",
+    "description": "Bienvenido al torneo de JA-MATCH",
+    "background_color": "#141b27",
+    "theme_color": "#222",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+      {
+        "src": "images/jalogo.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ]
+  }

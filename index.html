@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JA - Match</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<!-- <link rel="shortcut icon" href="images/libros2.png"> -->
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+
+
+
+	<!-- PWA desde aqui segun el video-->
+        <!-- Para pintar de color la barra de navegador de un navegador-->
+        <meta name="theme-color" content="#222">
+        <!-- Para decirle a los navegadores que tu sitio esta optimizado para moviles y que el sitio es amigable -->
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <!-- PWA para apple-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <!-- icono-->
+        <link rel="shortcut icon" type="image/png" href="images/jalogo.png">
+        <!-- Pantalla de inicio-->
+        <link rel="apple-touch-icon" href="images/jalogo.png">
+        <link rel="apple-touch-startup-image" href="images/jalogo.png">
+        <!-- importante -->
+		<link rel="manifest" href="manifest.json">
+
+
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>Region 2 <span class="bp-icon bp-icon-about" data-content="Distrito 21 de Septiembre y Evenezer"></span></span>
+			<h1>JA - MATCH</h1>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/voley.png"  width="220px" alt="libro1"/>
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Volleyball </span> Reglas<br> y tabla de posiciones</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/futbol.png" width="220px" alt="libro2" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Futbol</span>Reglas <br> y tabla de posiciones</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/basket.png" width="220px" alt="libro2" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Basket</span>Reglas <br> y tabla de posiciones</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/alcancia.png" width="280px" alt="alcancia" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Inscripcion</span>Pagos QR y detalles</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" style="margin-left: 40px" src="images/voley.png" alt="voley" />
+				<div class="content__item-inner">
+					<h2>Normas del voleibol</h2>
+					<h3>Reglas basicas</h3>
+					<p>• Los jugadores no pueden meterse en el campo del equipo adversario ni tocar la red.</p>
+					<p>• El partido está formado por tres, cuatro o cinco sets. Un equipo gana un set cuando alcanza o supera los 25 punto con una ventaja de dos. Cuando gane tres sets y en cada set gane al otro equipo por dos puntos habrá ganado el partido.</p>
+					<p>• Los jugadores tienen que evitar que el balón toque el suelo dentro de su campo, ya que será punto para el equipo contrario.</p>
+					<p>• Antes de empezar cada set, los dos equipos deben dar el orden de rotación. Los jugadores tienen que ir rotando sus posiciones a medida que van consiguiendo puntos.</p>
+					<p>• Antes de empezar el partido, los campos se sortean y en cada ser se produce un cambio de campo, así como lo mismo con el saque inicial.</p>
+					<p>• Cada equipo puede solicitar hasta dos tiempos de descanso o tiempos muertos de 30 segundos en cada set. Los tiene que pedir el entrenador o, si no estuviera, el capitán del equipo.</p>
+					<p>• Para que el partido se desarrolle con total normalidad y sin incidentes, tiene que haber un equipo arbitral formado por un primer árbitro, un segundo árbitro, un anotador, un anotador asistente y dos o tres jueces de línea. Sí que es cierto que es el primer árbitro el que tiene todo el poder de decisión sobre cualquier jugada.</p>
+					<p align="center"><a href="voley.html"> Ver mas &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" style="margin-left: 40px" src="images/futbol.png" alt="Futbol" />
+				<div class="content__item-inner">
+					<h2>Normas del Futbol</h2>
+					<h3>Reglas basicas</h3>
+					<p>Lo sentimos, las reglas aun no fueron definidas.
+					</p>
+					<p align="center"><a href="futbol.html">Ver mas &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" style="margin-left: 40px" src="images/basket.png" alt="Basket" />
+				<div class="content__item-inner">
+					<h2>Normas del Basket</h2>
+					<h3>Reglas basicas</h3>
+					<p>Lo sentimos, las reglas aun no fueron definidas.
+					</p>
+					<p align="center"><a href="basket.html">ver mas &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/alcancia.png" alt="alcancia" />
+				<div class="content__item-inner">
+					<h2>Inscripciones</h2>
+					<h3>Pagos QR</h3>
+					<p>Ahora puedes realizar la inscripcion de tu equipo mediante el pagos QR,
+						 puedes enviarlo al número <code style="color: #e58621;"> +591 666....6 </code> adjuntando lo siguiente:
+					</p>
+					<p>• Disciplina a jugar</p>
+					<p>• Nombre del equipo</p>
+					<p>• Lista de jugadores (Nombre completo + CI)</p>
+					<img class="content__item-img rounded-right" style="margin-left: 60px" src="images/qr.png" alt="alcancia" />
+					<p>Si tu equipo no cuenta con poleras deportivas o distintivos se facilitara ponchillos para hacer el equipo.
+					</p>
+					<p align="center"><a href="equipos.html">Ver lista de equipos &xrarr;</a></p>
+				</div>
+			</div>
+			
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
